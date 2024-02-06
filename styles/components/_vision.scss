@@ -1,0 +1,45 @@
+.vision-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .tex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+        h2{
+            font-size: 20px;
+            text-align: center;
+        }
+        p{
+            font-size: 10px;
+        }
+        
+    }
+    .mentor-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 10px;
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 10px;
+        }
+        button{
+            background: rgb(44, 100, 153);
+            // color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 20px;
+        }
+
+    }
+}
