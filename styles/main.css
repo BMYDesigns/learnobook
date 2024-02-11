@@ -182,10 +182,15 @@ header .header-info img {
   gap: 20px;
   margin-top: 50px;
 }
-.courses-container h2 {
+.courses-container .h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.courses-container .h2 h2 {
   font-size: 15px;
   font-family: sans-serif;
-  width: 50%;
   text-align: center;
 }
 .courses-container .all-cont {
@@ -237,35 +242,37 @@ header .header-info img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 400px;
     align-items: center;
     gap: 20px;
     margin-top: 50px;
   }
-  .courses-container h2 {
-    font-size: 10px;
-    font-family: sans-serif;
-    width: 50%;
-    text-align: center;
+  .courses-container .h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
   }
-  .courses-container img {
-    height: 100px;
-    width: 150px;
+  .courses-container .h2 h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
   }
   .courses-container .all-cont {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    gap: 20px;
-    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    margin-top: 20px;
   }
   .courses-container .all-cont .container {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
-    height: 200px;
-    width: 150px;
+    height: 250px;
+    width: 200px;
     background: rgb(44, 100, 153);
   }
   .courses-container .all-cont .container .text {
@@ -273,12 +280,14 @@ header .header-info img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    padding: 5px 10px;
   }
   .courses-container .all-cont .container .text h2 {
-    font-size: 8px;
+    font-size: 10px;
   }
   .courses-container .all-cont .container .text p {
-    font-size: 5px;
+    font-size: 8px;
   }
   .courses-container .all-cont .container .text-btn {
     display: flex;
